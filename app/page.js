@@ -50,7 +50,7 @@ export default function Page() {
 
   return (
     <div className={`${dark ? 'dark' : ''}`}>
-      <div className='h-screen transition dark:bg-teal-800 bg-teal-100'>
+      <div className='min-h-screen transition dark:bg-teal-800 bg-teal-100'>
         <div
           className={`w-7 h-7 lg:w-4 lg:h-4 rounded-lg cursor-pointer dark:bg-sky-300 bg-sky-800 fixed bottom-1 right-1`}
           onClick={toggleDark}
