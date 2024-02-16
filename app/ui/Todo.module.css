@@ -43,6 +43,15 @@
     height: 0;
   }
   .todo-container:hover .slide {
-    height: 30px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .slide {
+    height: 0;
+  }
+  .todo-container:hover .slide {
+    height: 50px;
   }
 }
