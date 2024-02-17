@@ -7,7 +7,7 @@ class TodoConstructor {
     this.statusDone = statusDone || false
   }
   getPrettyTime() {
-    return this.time.getUTCHours() + '.' + (this.time.getUTCMinutes() > 9 ? this.time.getUTCMinutes() : '0' + this.time.getUTCMinutes())
+    return this.time.getUTCHours() + ':' + (this.time.getUTCMinutes() > 9 ? this.time.getUTCMinutes() : '0' + this.time.getUTCMinutes())
   }
 }
 
