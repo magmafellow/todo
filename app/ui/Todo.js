@@ -14,7 +14,7 @@ export default function Todo({ todo, onToggleTodo, onDeleteTodo }) {
           styles['todo-text-top']
         }`}
       >
-        {todo.title} <span className='text-sm text-stone-500'>at {todo.getPrettyTime()}</span> {todo.statusDone ? `*` : ``}
+        {todo.title} <span className='text-sm hidden md:inline-block text-stone-500'>at {todo.getPrettyTime()}</span> {todo.statusDone ? `*` : ``}
       </div>
       <div
         className={`${
